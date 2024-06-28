@@ -5,7 +5,7 @@ function loadFoods() {
             console.log("foi")
             const parser = new DOMParser();
             const xmlDoc = parser.parseFromString(xmlString, "text/xml");
-            const foods = xmlDoc.querySelectorAll("food"); // Use querySelectorAll para obter todos os elementos "food"
+            const foods = xmlDoc.querySelectorAll("food"); 
 
             const boxContainer = document.querySelector(".box-container");
 
