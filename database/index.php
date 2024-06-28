@@ -1,3 +1,5 @@
+// AINDA TESTANDO O BANCO DE DADOS!!!!!!!!!!!!
+
 <?php
 $host = "localhost";
 $dbname = "site_pw";
