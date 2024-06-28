@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <title>Festa Junina</title>
+  </head>
+  <body>
+    <!--Header -->
+    <header>
+        <a href="#" class="logo"> <i class="fa-solid fa-fire"></i> Junina</a>
+
+        <div class="fas fa-bars" id="menu-bar"></div>
+
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#comida">Comida</a>
+            <a href="#fotos">Galeria</a>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="content">
+            <h3>Festa Junina!</h3>
+            <p>Com a chegada do mês de Junho, vem consigo uma das festas mais típicas do Brasil. Com comidas, brincadeiras e muita comemoração. A festa Junina também chegou na nossa escola.</p>
+        </div>
+
+        <div class="image">
+            <img src="./imgs/logojunina (4).png " alt="">
+        </div>
+    </section>
+
+    <!-- Comida Típica -->
+
+    <section class="comida" id="comida">
+        <h1 class="heading">Comidas <span>Típicas</span></h1>
+      
+        <div class="box-container">
+        </div>
+    </section>
+
+    <!--Bingo-->
+    <section class="bingo" id="bingo">
+        <div class="content">
+            <h3>Bingo!</h3>
+            <p>Em homenagem ao espírito junino, compartilhamos o bingo criado por Diogo Moraes e Luiz Morato durante a disciplina de Desenvolvimento de Sistemas no segundo ano. Esse bingo foi o vencedor do concurso para criar um sistema de bingo para a festa junina de 2023.</p>
+            <a href="https://www.mediafire.com/file/xta132j0t8kzxps/Bingo.zip/file" class="btn" target="_blank">Confira</a>
+        </div>
+
+        <div class="image">
+            <img src="./imgs/bingo (1).png" alt="">
+        </div>
+    </section>
+
+
+    <!--Galerry Section-->
+
+    <section class="fotos" id="fotos">
+        <h1 class="heading">Nossa <span>Galeria</span></h1>
+
+        <div class="box-container">
+            <div class="box">
+                <img src="./imgs/fotogaleria2.jpg" alt="">
+                <div class="content">
+                    <h3>🍻</h3>
+                    <h3>Amigos</h3>
+                    <p>Quatro pessoas lindas se encarando.</p>
+
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="./imgs/fotogaleria1.jpg" alt="">
+                <div class="content">
+                    <h3>😼</h3>
+                    <h3>Bingo<h3>
+                    <p>Um bingo incrível, pena que apostamos como nunca e perdemos como sempre.</p>
+                    <a href="#"></a>
+                </div>
+            </div>
+            <br>
+            <div class="box">
+                <img src="./imgs/bocapalhaço.jpg" alt="">
+                <div class="content">
+                    <h3>🤡</h3>
+                    <h3>Boca do Palhaço</h3>
+                    <p>Uma brincadeira caracteristica, você encontra em qualquer festa junina, pena que depois de um tempo é frustante não conseguir acertar as coisas em um objeto parado.</p>
+                    <a href="#"></a>
+                </div>
+            </div>
+
+            <br>
+            <div class="box">
+                <img src="./imgs/pescaria.jpg" alt="">
+                <div class="content">
+                    <h3>🐟</h3>
+                    <h3>Pescaria</h3>
+                    <p>Uma dos jogos mais típicos de uma festa junina, não tem como não gostar, alivia muito a saúde mental, recomendo muito para um estudante de Etec.</p>
+                    <a href="#"></a>
+                </div>
+            </div>
+
+            <br>
+            <div class="box">
+                <img src="./imgs/arraial.jpg" alt="">
+                <div class="content">
+                    <h3>👨‍🌾</h3>
+                    <h3>Arraial</h3>
+                    <p>Uma mistura de muita comida boa, amigos, brincadeiras, risadas. Tem como não gostar? (Não responda de maneira sarcástica por favor)</p>
+                    <a href="#"></a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Upload de Imagens -->
+
+    <section class="upload" id="upload">
+        <h1 class="heading"><span>Enviar</span> Imagens </h1>
+
+        <div class="row">
+            <div class="image">
+                <img src="./imgs/fogueira.png" alt="">
+            </div>
+
+            <form action="">
+                <div class="inputBox">
+                    <input type="text" placeholder="Nome">
+                    <input type="email" placeholder="Email">
+                </div>
+
+                <div class="inputBox">
+                    <input type="number" placeholder="Série">
+
+                </div>
+
+                <div> <textarea placeholder="Fazer upload de arquivos ↑" name="" id="upload" cols="30"
+                        rows="10"></textarea>
+                    <input type="submit" value="Enviar" class="btn">
+            </form>
+        </div>
+
+    </section>
+
+
+    <!--footer Section-->
+
+    <section class="footer">
+        <div class="share">
+            <a href="#" class="btn">Facebook</a>
+
+            <a href="https://www.instagram.com/etecdetaboaodaserra/" class="btn">Instagram</a>
+
+
+        </div>
+
+        <h1 class="credit">Desenvolvido por <span>Diogo Moraes & Luiz Morato </span> | 3°A </h1>
+    </section>
+
+    <!--Gambiarra louca-->
+    <a href="#home" class="fas fa-angle-up" id="scroll-top"></a>
+    <script src="./xml/index.js"></script>
+    <script type="module" src="./script/main.js"></script>
+  </body>
+</html>
